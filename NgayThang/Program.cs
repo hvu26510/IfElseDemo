@@ -51,7 +51,7 @@ namespace NgayThang
             } else if(ngay == dayInMonth && thang < 12)
             {
                 Console.WriteLine($"Ngay tiep theo la {1}/{thang + 1}");
-            }else if(ngay == dayInMonth && thang == 1)
+            }else if(ngay == dayInMonth && thang == 12)
             {
                 Console.WriteLine($"Ngay tiep theo la {1}/{1}/ {nam +1}");
             }
